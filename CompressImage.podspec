@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'Source'
-  s.version      = '1.2.1'
+  s.version      = '1.3.1'
   s.summary      = 'convince for image compress.'
   s.homepage     = 'https://www.jianshu.com/u/f3d3e8bb8ba8'
   s.license      = "MIT"
