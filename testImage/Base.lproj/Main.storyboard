@@ -80,20 +80,11 @@
                         <outlet property="convertImage" destination="jBC-Wd-2Uu" id="WkS-s9-Ad7"/>
                         <outlet property="originImage" destination="RxO-PV-hzt" id="cdg-ta-xbN"/>
                         <outlet property="orignImageBytes" destination="VbH-J3-WPq" id="MSh-A1-k6H"/>
-                        <segue destination="Z88-FM-RHb" kind="presentation" identifier="ImagePicker" id="K9d-GH-6xe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="964" y="88.605697151424295"/>
-        </scene>
-        <!--ImagePicker-->
-        <scene sceneID="Udt-KN-Tg0">
-            <objects>
-                <viewControllerPlaceholder storyboardName="ImagePicker" id="Z88-FM-RHb" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Aih-1h-zzX" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1480.8" y="-60.26986506746627"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="05y-g8-DB6">

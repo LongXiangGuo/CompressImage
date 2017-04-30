@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         let image  = UIImage.init(named: "test")
         guard let cgImage = image?.cgImage else {
             orignImageBytes.text = "unable to read"
+            return
         }
         originImage.image = image
         orignImageBytes.text = "\(cgImage.bytesPerRow * cgImage.height / 1024)" + "KB"
