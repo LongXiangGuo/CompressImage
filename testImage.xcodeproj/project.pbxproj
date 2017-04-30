@@ -15,6 +15,7 @@
 		F201AF751EA9072700AD2C6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F201AF731EA9072700AD2C6F /* LaunchScreen.storyboard */; };
 		F201AF801EA9072700AD2C6F /* testImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F201AF7F1EA9072700AD2C6F /* testImageTests.swift */; };
 		F201AF8B1EA9072700AD2C6F /* testImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F201AF8A1EA9072700AD2C6F /* testImageUITests.swift */; };
+		F2925CCD1EB629D60093454E /* CompressImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2925CCC1EB629D60093454E /* CompressImage.swift */; };
 		F2E51C341EB5AFC800DFEB21 /* UImageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E51C331EB5AFC800DFEB21 /* UImageTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		F201AF861EA9072700AD2C6F /* testImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F201AF8A1EA9072700AD2C6F /* testImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testImageUITests.swift; sourceTree = "<group>"; };
 		F201AF8C1EA9072700AD2C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2925CCC1EB629D60093454E /* CompressImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompressImage.swift; sourceTree = "<group>"; };
 		F2E51C331EB5AFC800DFEB21 /* UImageTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UImageTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +105,7 @@
 			children = (
 				F201AF671EA9072700AD2C6F /* AppDelegate.swift */,
 				F201AF691EA9072700AD2C6F /* ViewController.swift */,
+				F2925CCC1EB629D60093454E /* CompressImage.swift */,
 				F201AF6B1EA9072700AD2C6F /* Main.storyboard */,
 				F201AF711EA9072700AD2C6F /* Assets.xcassets */,
 				F201AF731EA9072700AD2C6F /* LaunchScreen.storyboard */,
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F201AF701EA9072700AD2C6F /* testImage.xcdatamodeld in Sources */,
+				F2925CCD1EB629D60093454E /* CompressImage.swift in Sources */,
 				F201AF6A1EA9072700AD2C6F /* ViewController.swift in Sources */,
 				F201AF681EA9072700AD2C6F /* AppDelegate.swift in Sources */,
 			);
