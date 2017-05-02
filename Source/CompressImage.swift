@@ -75,12 +75,12 @@ extension UIImage {
         let colorsapce        = CGColorSpaceCreateDeviceRGB()
         let bitmapData        = malloc(pixelbufferLength)
         let bitmapContext     = CGContext(data: bitmapData,width: width,height: height,bitsPerComponent: bitesPerComponent,bytesPerRow: bytesPerRow,space: colorsapce,bitmapInfo: CGBitmapInfo.byteOrder32Big.rawValue|CGImageAlphaInfo.premultipliedLast.rawValue)
-        
         let drawRect = CGRect.init(x: 0, y: 0, width: width, height:height)
         bitmapContext?.draw(cgImage, in: drawRect)
         guard let newCgImage = bitmapContext?.makeImage() else {
             return image
         }
+        bitmapData?.deallocate(bytes: pixelbufferLength, alignedTo: 0)
         return UIImage(cgImage: newCgImage)
     }
     
